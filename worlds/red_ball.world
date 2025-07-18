@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://turtlebot3_burger</uri>
+      <pose>0 0 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://red_ball</uri>
+      <pose>1 1 0.1 0 0 0</pose>
+    </include>
+  <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+  </world>
+</sdf>
+
