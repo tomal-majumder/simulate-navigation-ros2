@@ -1,6 +1,4 @@
-# simulate-navigation-ros2
-
-# 🧠 FSM-Based TurtleBot3 Navigation with Visual Tracking and Obstacle Avoidance (ROS2 Foxy)
+# FSM-Based TurtleBot3 Navigation with Visual Tracking and Obstacle Avoidance (ROS2 Foxy)
 
 ---
 
